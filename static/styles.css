@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 40px;
+    text-align: center;
+    color: #3498db;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #34495e;
+    padding: 14px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: white;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #2980b9;
+}
+
+/* Main Content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.intro-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #2ecc71;
+}
+
+.intro-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.intro-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.intro-section ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #7f8c8d;
+}
+
+.footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+/* Form Styles */
+form input[type="file"] {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 12px 30px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+/* Result Section */
+.result {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.result img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+/* Real-Time Analysis Styles */
+.video-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#videoFeed {
+    width: 80%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}

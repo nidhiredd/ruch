@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Age and Gender Detection</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #1abc9c;
+        }
+
+        section {
+            height: 100vh;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #welcome {
+            background-color: #f0f8ff;
+        }
+
+        #welcome h1 {
+            font-size: 3rem;
+            color: #3498db;
+            margin-bottom: 1rem;
+        }
+
+        #about {
+            background-color: #ffffff;
+        }
+
+        #about h2 {
+            font-size: 2rem;
+            color: #2ecc71;
+            margin-bottom: 1rem;
+        }
+
+        #about p {
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        #about ul {
+            list-style: none;
+            text-align: left;
+            padding-left: 0;
+        }
+
+        #about ul li {
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+        }
+
+        #use-cases {
+            background-color: #f5f5f5;
+        }
+
+        #use-cases h3 {
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+            color: #34495e;
+        }
+
+        #use-cases ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        #use-cases ul li {
+            margin-bottom: 0.7rem;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            margin-top: 2rem;
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+
+            #welcome h1 {
+                font-size: 2.2rem;
+            }
+
+            #about h2, #use-cases h3 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="predict">Predict</a>
+        <a href="/real">Real-Time Analysis</a>
+    </nav>
+
+    <section id="welcome">
+        <h1>Welcome to Age and Gender Detection</h1>
+        <p>This system uses deep learning models to predict age and gender using images or webcam feeds.</p>
+    </section>
+
+    <section id="about">
+        <h2>About the Project</h2>
+        <p>This project uses deep learning models to predict the age and gender of individuals based on images or real-time webcam feed. It can be used for a variety of applications ranging from personalized marketing to security systems.</p>
+        
+        <h3>Key Features:</h3>
+        <ul>
+            <li>✅ Accurate age and gender predictions using pre-trained models.</li>
+            <li>✅ Real-time analysis via webcam feed for instant results.</li>
+            <li>✅ Easy-to-use interface for uploading images for predictions.</li>
+        </ul>
+    </section>
+
+    <section id="use-cases">
+        <h3>Real-Time Use Cases:</h3>
+        <ul>
+            <li>📊 Age and gender detection in marketing campaigns for better targeting.</li>
+            <li>🛡️ Security systems for demographic analysis and surveillance.</li>
+            <li>🎯 Personalized experiences and recommendations based on demographic data.</li>
+        </ul>
+
+        <footer>
+            <p>&copy; 2025 Age and Gender Detection. All rights reserved.</p>
+        </footer>
+    </section>
+</body>
+</html>
